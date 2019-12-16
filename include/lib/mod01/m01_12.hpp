@@ -4,8 +4,7 @@
 #include <thread>
 #include <iostream>
 
-namespace concurr {
-namespace m01_12 {
+namespace concurr::m01_12 {
 
 void bar() {
   std::cout << "Hello from bar - " << std::this_thread::get_id() << "\n";
@@ -38,7 +37,6 @@ void run() {
 
 }
 
-}
 }
 
 #endif //CPP_CONCURR_INCLUDE_LIB_MOD01_M01_12_HPP

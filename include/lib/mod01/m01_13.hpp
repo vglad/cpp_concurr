@@ -24,8 +24,7 @@
 //captain should not wait for command completion to accept next command
 //1sec interval between commands
 
-namespace concurr {
-namespace m01_13 {
+namespace concurr::m01_13 {
 
 using namespace std::chrono_literals;
 
@@ -80,7 +79,7 @@ void engine_worker(std::queue<int>& q) {
   }
 }
 
-int const check_command(std::string const& command) {
+int check_command(std::string const& command) {
   try {
     return std::stoi(command);
   } catch (...) {
@@ -125,7 +124,6 @@ void run() {
   }
 }
 
-}
 }
 
 #endif //CPP_CONCURR_INCLUDE_LIB_MOD01_M01_13_HPP

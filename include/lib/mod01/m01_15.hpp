@@ -9,8 +9,7 @@
 
 #include "Utils.hpp"
 
-namespace concurr {
-namespace m01_15 {
+namespace concurr::m01_15 {
 
 template<typename Iter, typename T>
 void accumulate_block(Iter start, Iter end, T& result) {
@@ -79,7 +78,6 @@ void run() {
 
 }
 
-}
 }
 
 #endif //CPP_CONCURR_INCLUDE_LIB_MOD01_M01_15_HPP

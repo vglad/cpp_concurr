@@ -5,8 +5,7 @@
 #include <iostream>
 
 
-namespace concurr {
-namespace m01_10 {
+namespace concurr::m01_10 {
 
 using namespace std::chrono_literals;
 
@@ -38,7 +37,6 @@ void run() {
   std::this_thread::sleep_for(2000ms);
 }
 
-}
 }
 
 #endif //CPP_CONCURR_INCLUDE_LIB_MOD01_M01_10_HPP

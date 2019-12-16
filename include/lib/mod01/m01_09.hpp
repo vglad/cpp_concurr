@@ -5,8 +5,7 @@
 #include <string>
 #include <iostream>
 
-namespace concurr {
-namespace m01_09 {
+namespace concurr::m01_09 {
 
 using namespace std::chrono_literals;
 
@@ -33,7 +32,6 @@ void run() {
   thread_1.join();
 }
 
-}
 }
 
 #endif //CPP_CONCURR_INCLUDE_LIB_MOD01_M01_9_HPP

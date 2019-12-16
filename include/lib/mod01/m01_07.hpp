@@ -6,8 +6,7 @@
 
 #include "ThreadGuard.hpp"
 
-namespace concurr {
-namespace m01_07 {
+namespace concurr::m01_07 {
 
 void foo() {
   std::cout << "Hello from foo - " << std::this_thread::get_id() << "\n";
@@ -36,7 +35,6 @@ void run() {
   }
 }
 
-}
 }
 
 #endif //CPP_CONCURR_INCLUDE_LIB_MOD01_M01_07_HPP

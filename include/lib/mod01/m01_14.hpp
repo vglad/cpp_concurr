@@ -7,8 +7,7 @@
 #include <iostream>
 #include <string>
 
-namespace concurr {
-namespace m01_14 {
+namespace concurr::m01_14 {
 
 void sequential_accum_test() {
   auto v         = std::vector<int> { 1,2,3,4,5,6,7,8,9,10 };
@@ -33,7 +32,6 @@ void run() {
   sequential_accum_test();
 }
 
-}
 }
 
 #endif //CPP_CONCURR_INCLUDE_LIB_MOD01_M01_14_HPP

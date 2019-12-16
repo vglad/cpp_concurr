@@ -4,8 +4,7 @@
 #include <iostream>
 #include <thread>
 
-namespace concurr {
-namespace m01_03 {
+namespace concurr::m01_03 {
 
 class callable_class {
 public:
@@ -35,7 +34,6 @@ void run() {
   std::cout << "Hello from run - " << std::this_thread::get_id() << "\n";
 }
 
-}
 }
 
 #endif //CPP_CONCURR_INCLUDE_LIB_MOD01_M01_03_HPP

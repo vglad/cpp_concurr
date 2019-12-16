@@ -6,8 +6,7 @@
 #include <string>
 #include <iostream>
 
-namespace concurr {
-namespace m01_08 {
+namespace concurr::m01_08 {
 
 using namespace std::chrono_literals;
 
@@ -59,7 +58,6 @@ void run() {
   }
 }
 
-}
 }
 
 #endif //CPP_CONCURR_INCLUDE_LIB_MOD01_M01_08_HPP
