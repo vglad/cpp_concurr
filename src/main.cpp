@@ -1,9 +1,7 @@
 #include "lib.hpp"
 
-#include <iostream>
-
 int main() {
-  using namespace concurr::m01_9;
+  using namespace concurr::m01_15;
   run();
   return 0;
 }

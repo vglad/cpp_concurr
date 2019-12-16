@@ -1,10 +1,11 @@
-#ifndef CPP_CONCURR_INCLUDE_LIB_MOD01_M01_4_HPP
-#define CPP_CONCURR_INCLUDE_LIB_MOD01_M01_4_HPP
+#ifndef CPP_CONCURR_INCLUDE_LIB_MOD01_M01_04_HPP
+#define CPP_CONCURR_INCLUDE_LIB_MOD01_M01_04_HPP
 
 #include <thread>
+#include <iostream>
 
 namespace concurr {
-namespace m01_4 {
+namespace m01_04 {
 
 void test() {
   std::cout << "Hello from test - " << std::this_thread::get_id() << "\n";
@@ -33,4 +34,4 @@ void run() {
 }
 }
 
-#endif //CPP_CONCURR_INCLUDE_LIB_MOD01_M01_4_HPP
+#endif //CPP_CONCURR_INCLUDE_LIB_MOD01_M01_04_HPP

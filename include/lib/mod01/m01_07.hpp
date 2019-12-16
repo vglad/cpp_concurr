@@ -1,12 +1,13 @@
-#ifndef CPP_CONCURR_INCLUDE_LIB_MOD01_M01_7_HPP
-#define CPP_CONCURR_INCLUDE_LIB_MOD01_M01_7_HPP
+#ifndef CPP_CONCURR_INCLUDE_LIB_MOD01_M01_07_HPP
+#define CPP_CONCURR_INCLUDE_LIB_MOD01_M01_07_HPP
 
 #include <thread>
+#include <iostream>
 
 #include "ThreadGuard.hpp"
 
 namespace concurr {
-namespace m01_7 {
+namespace m01_07 {
 
 void foo() {
   std::cout << "Hello from foo - " << std::this_thread::get_id() << "\n";
@@ -38,4 +39,4 @@ void run() {
 }
 }
 
-#endif //CPP_CONCURR_INCLUDE_LIB_MOD01_M01_7_HPP
+#endif //CPP_CONCURR_INCLUDE_LIB_MOD01_M01_07_HPP

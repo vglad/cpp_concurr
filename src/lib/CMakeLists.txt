@@ -9,13 +9,21 @@ set(SOURCE_FILES
 	../../include/detail/ThreadGuard.hpp
 	../../include/detail/Precompiled.hpp
 	../../include/lib/lib.hpp lib.cpp
-	../../include/lib/mod01/m01_3.hpp
-	../../include/lib/mod01/m01_4.hpp
-	../../include/lib/mod01/m01_5.hpp
-	../../include/lib/mod01/m01_6.hpp
-	../../include/lib/mod01/m01_7.hpp
-	../../include/lib/mod01/m01_8.hpp
-	../../include/lib/mod01/m01_9.hpp)
+	../../include/lib/mod01/m01_03.hpp
+	../../include/lib/mod01/m01_04.hpp
+	../../include/lib/mod01/m01_05.hpp
+	../../include/lib/mod01/m01_06.hpp
+	../../include/lib/mod01/m01_07.hpp
+	../../include/lib/mod01/m01_08.hpp
+	../../include/lib/mod01/m01_09.hpp
+	../../include/lib/mod01/m01_10.hpp
+	../../include/lib/mod01/m01_11.hpp
+	../../include/lib/mod01/m01_12.hpp
+	../../include/lib/mod01/m01_13.hpp
+	../../include/lib/mod01/m01_14.hpp
+	../../include/lib/mod01/m01_15.hpp
+
+	)
 
 add_library(libConcurr STATIC ${SOURCE_FILES})
 target_include_directories(libConcurr PRIVATE ../../include/detail ../../include/lib)

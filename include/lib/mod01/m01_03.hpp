@@ -1,11 +1,11 @@
-#ifndef CPP_CONCURR_INCLUDE_LIB_MOD01_M01_3_HPP
-#define CPP_CONCURR_INCLUDE_LIB_MOD01_M01_3_HPP
+#ifndef CPP_CONCURR_INCLUDE_LIB_MOD01_M01_03_HPP
+#define CPP_CONCURR_INCLUDE_LIB_MOD01_M01_03_HPP
 
 #include <iostream>
 #include <thread>
 
 namespace concurr {
-namespace m01_3 {
+namespace m01_03 {
 
 class callable_class {
 public:
@@ -38,4 +38,4 @@ void run() {
 }
 }
 
-#endif //CPP_CONCURR_INCLUDE_LIB_MOD01_M01_3_HPP
+#endif //CPP_CONCURR_INCLUDE_LIB_MOD01_M01_03_HPP

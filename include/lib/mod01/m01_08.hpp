@@ -1,30 +1,31 @@
-#ifndef CPP_CONCURR_INCLUDE_LIB_MOD01_M01_8_HPP
-#define CPP_CONCURR_INCLUDE_LIB_MOD01_M01_8_HPP
+#ifndef CPP_CONCURR_INCLUDE_LIB_MOD01_M01_08_HPP
+#define CPP_CONCURR_INCLUDE_LIB_MOD01_M01_08_HPP
 
 #include <thread>
 #include <chrono>
 #include <string>
+#include <iostream>
 
 namespace concurr {
-namespace m01_8 {
+namespace m01_08 {
 
 using namespace std::chrono_literals;
 
 void c_clean() {
   std::cout << "Cleaning crew working...\n";
-  std::this_thread::sleep_for(2000ms);
+  std::this_thread::sleep_for(2s);
   std::cout << "Cleaning finished\n";
 }
 
 void c_full_speed() {
   std::cout << "Engine crew working.\nGoing full speed...\n";
-  std::this_thread::sleep_for(2000ms);
+  std::this_thread::sleep_for(2s);
   std::cout << "Full speed achieved\n";
 }
 
 void c_stop() {
   std::cout << "Engine crew working.\nStopping...\n";
-  std::this_thread::sleep_for(2000ms);
+  std::this_thread::sleep_for(2s);
   std::cout << "Ship stopped\n";
 }
 
@@ -61,4 +62,4 @@ void run() {
 }
 }
 
-#endif //CPP_CONCURR_INCLUDE_LIB_MOD01_M01_8_HPP
+#endif //CPP_CONCURR_INCLUDE_LIB_MOD01_M01_08_HPP
