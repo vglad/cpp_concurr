@@ -8,7 +8,7 @@ namespace concurr::m01_03 {
 
 class callable_class {
 public:
-  auto operator()() {
+  void operator()() {
     std::cout << "Hello from callable class - "
       << std::this_thread::get_id() << "\n";
   }
@@ -19,12 +19,12 @@ void foo() {
 }
 
 void run() {
-  auto obj = callable_class {};
+  auto obj     = callable_class {};
   auto thread1 = std::thread(foo);
   auto thread2 = std::thread(obj);
   auto thread3 = std::thread([] {std::cout << "Hello from lambda - "
-                             << std::this_thread::get_id()
-                             << "\n"; }
+                                    << std::this_thread::get_id()
+                                    << "\n"; }
   );
 
   thread1.join();

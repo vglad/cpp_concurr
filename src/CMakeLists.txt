@@ -22,4 +22,5 @@ target_link_libraries(main PRIVATE libConcurr)
 target_include_directories(main PRIVATE
         ../include/detail
         ../include/lib/mod01
+        ../include/lib/mod02
         ../include/lib)

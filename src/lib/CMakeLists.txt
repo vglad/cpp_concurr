@@ -22,11 +22,16 @@ set(SOURCE_FILES
 	../../include/lib/mod01/m01_14.hpp
 	../../include/lib/mod01/m01_15.hpp
 
+	../../include/lib/mod02/m02_18.hpp
+	../../include/lib/mod02/m02_19.hpp
+	../../include/lib/mod02/m02_21.hpp
+
 	../../include/lib/lib.hpp lib.cpp)
 
 add_library(libConcurr STATIC ${SOURCE_FILES})
 target_include_directories(libConcurr PRIVATE
 		../../include/detail
 		../../include/lib/mod01
+		../../include/lib/mod02
 		../../include/lib
 		)
