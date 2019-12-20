@@ -39,7 +39,7 @@ class data_wrapper {
 public:
   template <typename function>
   void do_some_work(function f) {
-    std::lock_guard<std::mutex> lg(m);
+    auto lg = std::lock_guard<std::mutex>(m);
     f(protected_data);
   }
 

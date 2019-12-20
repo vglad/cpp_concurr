@@ -24,8 +24,10 @@ set(SOURCE_FILES
 
 	../../include/lib/mod02/m02_18.hpp
 	../../include/lib/mod02/m02_19.hpp
-	../../include/lib/mod02/m02_21.hpp
-
+	../../include/lib/mod02/m02_22.hpp
+	../../include/lib/mod02/m02_23.hpp
+	../../include/lib/mod02/m02_24.hpp
+	
 	../../include/lib/lib.hpp lib.cpp)
 
 add_library(libConcurr STATIC ${SOURCE_FILES})
