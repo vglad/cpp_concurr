@@ -27,7 +27,15 @@ set(SOURCE_FILES
 	../../include/lib/mod02/m02_22.hpp
 	../../include/lib/mod02/m02_23.hpp
 	../../include/lib/mod02/m02_24.hpp
-	
+
+	../../include/lib/mod03/m03_25.hpp
+	../../include/lib/mod03/m03_26.hpp
+	../../include/lib/mod03/m03_28.hpp
+	../../include/lib/mod03/m03_29.hpp
+	../../include/lib/mod03/m03_30.hpp
+	../../include/lib/mod03/m03_31.hpp
+
+		
 	../../include/lib/lib.hpp lib.cpp)
 
 add_library(libConcurr STATIC ${SOURCE_FILES})
@@ -35,5 +43,6 @@ target_include_directories(libConcurr PRIVATE
 		../../include/detail
 		../../include/lib/mod01
 		../../include/lib/mod02
+		../../include/lib/mod03
 		../../include/lib
 		)

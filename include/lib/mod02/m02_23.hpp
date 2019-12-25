@@ -49,7 +49,7 @@ public:
   }
 
 private:
-  double balance;
+  double balance = 0.0;
   std::string name;
   std::mutex m;
 

@@ -11,7 +11,7 @@ namespace concurr::m02_18 {
 auto my_list = std::list<int> {};
 auto m       = std::mutex {};
 
-void add_to_list(int x) {
+void add_to_list_with_raw_mutex(int x) {
   m.lock();
   my_list.emplace_back(x);
   m.unlock();

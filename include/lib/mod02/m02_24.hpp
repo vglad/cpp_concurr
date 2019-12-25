@@ -46,7 +46,7 @@ public:
   }
 
 private:
-  double balance;
+  double balance = 0.0;
   std::string name;
   std::mutex m;
 
@@ -60,6 +60,8 @@ void y_operation() {
   std::cout << "execute operation Y\n";
 }
 
+//will throw runtime error in VS2019 in x64-Debug or x64-Clang-Debug mode 
+//warnings C26111 and C26115
 std::unique_lock<std::mutex> get_lock() {
   auto m = std::mutex {};
   auto lk = std::unique_lock<std::mutex>(m);
