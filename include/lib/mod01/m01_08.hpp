@@ -1,3 +1,6 @@
+// Module 1: Thread management guide
+// 8. Programming exercise 2: Trivial sale a ship model
+
 #ifndef CPP_CONCURR_INCLUDE_LIB_MOD01_M01_08_HPP
 #define CPP_CONCURR_INCLUDE_LIB_MOD01_M01_08_HPP
 

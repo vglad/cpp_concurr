@@ -1,3 +1,6 @@
+// Module 1: Thread management guide
+// 9. How to pass parameters to a thread
+
 #ifndef CPP_CONCURR_INCLUDE_LIB_MOD01_M01_9_HPP
 #define CPP_CONCURR_INCLUDE_LIB_MOD01_M01_9_HPP
 

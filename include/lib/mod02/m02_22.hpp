@@ -1,3 +1,6 @@
+// Module 2: Thread safe access to shared data and locking mechanisms
+// 22. Thread safe stack implementation: race condition inherit from the interface
+
 #ifndef CPP_CONCURR_INCLUDE_LIB_MOD02_M02_22_HPP
 #define CPP_CONCURR_INCLUDE_LIB_MOD02_M02_22_HPP
 
@@ -19,7 +22,7 @@ public:
   std::shared_ptr<T> pop() {
     auto lg = std::lock_guard<std::mutex>(m);
     if (stk.empty()) {
-      throw std::runtime_error("Calling pop on empty stack\n")
+      throw std::runtime_error("Calling pop on empty stack\n");
     }
     auto result = std::shared_ptr<T>(stk.top());
     stk.pop();

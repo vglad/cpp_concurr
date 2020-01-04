@@ -1,3 +1,6 @@
+// Module 2: Thread safe access to shared data and locking mechanisms
+// 19. Things to remember when using mutexes
+
 #ifndef CPP_CONCURR_INCLUDE_LIB_MOD02_M02_19_HPP
 #define CPP_CONCURR_INCLUDE_LIB_MOD02_M02_19_HPP
 

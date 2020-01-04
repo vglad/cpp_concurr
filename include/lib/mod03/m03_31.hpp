@@ -1,3 +1,6 @@
+// Module 3: Communication between threads using condition variables and futures
+// 31. Parallel accumulate algorithm implementation with async task
+
 #ifndef CPP_CONCURR_INCLUDE_LIB_MOD03_M03_31_HPP
 #define CPP_CONCURR_INCLUDE_LIB_MOD03_M03_31_HPP
 

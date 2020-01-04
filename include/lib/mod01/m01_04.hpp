@@ -1,3 +1,6 @@
+// Module 1: Thread management guide
+// 4. Programming exercise 1: Launching the threads
+
 #ifndef CPP_CONCURR_INCLUDE_LIB_MOD01_M01_04_HPP
 #define CPP_CONCURR_INCLUDE_LIB_MOD01_M01_04_HPP
 

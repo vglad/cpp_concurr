@@ -1,3 +1,6 @@
+// Module 1: Thread management guide
+// 10. Problematic situations may arise when passing parameters to a thread
+
 #ifndef CPP_CONCURR_INCLUDE_LIB_MOD01_M01_10_HPP
 #define CPP_CONCURR_INCLUDE_LIB_MOD01_M01_10_HPP
 

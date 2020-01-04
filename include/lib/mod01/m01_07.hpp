@@ -1,3 +1,6 @@
+// Module 1: Thread management guide
+// 7. How to handle join, in exception scenarios
+
 #ifndef CPP_CONCURR_INCLUDE_LIB_MOD01_M01_07_HPP
 #define CPP_CONCURR_INCLUDE_LIB_MOD01_M01_07_HPP
 

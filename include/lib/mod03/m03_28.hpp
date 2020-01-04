@@ -1,3 +1,6 @@
+// Module 3: Communication between threads using condition variables and futures
+// 28. Thread safe queue implementation: implementation
+
 #ifndef CPP_CONCURR_INCLUDE_LIB_MOD03_M03_28_HPP
 #define CPP_CONCURR_INCLUDE_LIB_MOD03_M03_28_HPP
 

@@ -8,6 +8,7 @@ set(SOURCE_FILES
 	../../include/detail/Utils.hpp
 	../../include/detail/ThreadGuard.hpp
 	../../include/detail/Precompiled.hpp
+
 	../../include/lib/mod01/m01_03.hpp
 	../../include/lib/mod01/m01_04.hpp
 	../../include/lib/mod01/m01_05.hpp
@@ -34,15 +35,15 @@ set(SOURCE_FILES
 	../../include/lib/mod03/m03_29.hpp
 	../../include/lib/mod03/m03_30.hpp
 	../../include/lib/mod03/m03_31.hpp
-
-		
-	../../include/lib/lib.hpp lib.cpp)
+	
+	../../include/lib/lib.hpp lib.cpp
+)
 
 add_library(libConcurr STATIC ${SOURCE_FILES})
 target_include_directories(libConcurr PRIVATE
-		../../include/detail
-		../../include/lib/mod01
-		../../include/lib/mod02
-		../../include/lib/mod03
-		../../include/lib
-		)
+	../../include/detail
+	../../include/lib/mod01
+	../../include/lib/mod02
+	../../include/lib/mod03
+	../../include/lib
+)

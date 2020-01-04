@@ -1,3 +1,6 @@
+// Module 1: Thread management guide
+// 12. Some useful operations on thread
+
 #ifndef CPP_CONCURR_INCLUDE_LIB_MOD01_M01_12_HPP
 #define CPP_CONCURR_INCLUDE_LIB_MOD01_M01_12_HPP
 

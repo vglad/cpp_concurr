@@ -1,3 +1,6 @@
+// Module 1: Thread management guide
+// 6. Join and detach functions
+
 #ifndef CPP_CONCURR_INCLUDE_LIB_MOD01_M01_06_HPP
 #define CPP_CONCURR_INCLUDE_LIB_MOD01_M01_06_HPP
 

@@ -1,3 +1,6 @@
+// Module 1: Thread management guide
+// 13. Programming exercise 3: Sail a ship woth work queues
+
 #ifndef CPP_CONCURR_INCLUDE_LIB_MOD01_M01_13_HPP
 #define CPP_CONCURR_INCLUDE_LIB_MOD01_M01_13_HPP
 

@@ -1,3 +1,6 @@
+// Module 1: Thread management guide
+// 5. Joinability of threads
+
 #ifndef CPP_CONCURR_INCLUDE_LIB_MOD01_M01_05_HPP
 #define CPP_CONCURR_INCLUDE_LIB_MOD01_M01_05_HPP
 

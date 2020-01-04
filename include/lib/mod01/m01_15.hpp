@@ -1,3 +1,6 @@
+// Module 1: Thread management guide
+// 15. Parallel accumulate algorithm implementation
+
 #ifndef CPP_CONCURR_INCLUDE_LIB_MOD01_M01_15_HPP
 #define CPP_CONCURR_INCLUDE_LIB_MOD01_M01_15_HPP
 

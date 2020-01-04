@@ -1,3 +1,6 @@
+// Module 1: Thread management guide
+// 11. Transferring ownership of a thread
+
 #ifndef CPP_CONCURR_INCLUDE_LIB_MOD01_M01_11_HPP
 #define CPP_CONCURR_INCLUDE_LIB_MOD01_M01_11_HPP
 

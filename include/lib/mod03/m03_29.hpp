@@ -1,13 +1,20 @@
+// Module 3: Communication between threads using condition variables and futures
+// 29. Introduction to futures and async tasks
+
 #ifndef CPP_CONCURR_INCLUDE_LIB_MOD03_M03_29_HPP
 #define CPP_CONCURR_INCLUDE_LIB_MOD03_M03_29_HPP
 
 #include <iostream>
 #include <string>
 #include <future>
+#include <chrono>
 
 namespace concurr::m03_29 {
 
+using namespace std::chrono_literals;
+
 int64_t find_answer_how_old_the_universe_is() {
+  std::this_thread::sleep_for(3s);
   return 13'000'000'000;
 }
 
