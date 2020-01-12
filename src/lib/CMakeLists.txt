@@ -35,7 +35,14 @@ set(SOURCE_FILES
 	../../include/lib/mod03/m03_29.hpp
 	../../include/lib/mod03/m03_30.hpp
 	../../include/lib/mod03/m03_31.hpp
-	
+	../../include/lib/mod03/m03_32.hpp
+	../../include/lib/mod03/m03_33.hpp
+	../../include/lib/mod03/m03_34.hpp
+	../../include/lib/mod03/m03_35.hpp
+
+	../../include/lib/mod04/m04_38.hpp
+		
+
 	../../include/lib/lib.hpp lib.cpp
 )
 
@@ -45,5 +52,6 @@ target_include_directories(libConcurr PRIVATE
 	../../include/lib/mod01
 	../../include/lib/mod02
 	../../include/lib/mod03
+	../../include/lib/mod04
 	../../include/lib
 )

@@ -25,33 +25,35 @@ T accumulate_list(Iter start, Iter end, T init) {
   auto const elements_total = std::distance(start, end);
   if (elements_total <= 0) return init;
   
-  auto constexpr min_elements_for_thread = 1'000'000;
+  auto const min_elements_for_thread = int { 1'000'000 };
   auto const max_threads = 
     static_cast<int>(elements_total / min_elements_for_thread);
 //  std::cout << "Max number of threads to avoid heavy overload: " 
 //            << max_threads << "\n";
 
   auto const allowed_threads = static_cast<int>(
-                                std::thread::hardware_concurrency() > 0 ?
-                                std::thread::hardware_concurrency()     :
-                                2);
+    std::thread::hardware_concurrency() > 0 
+    ? std::thread::hardware_concurrency()
+    : 2
+  );
 //  std::cout << "Max number of threads to avoid oversubscription: "
 //            << allowed_threads << "\n";
 
-  auto const running_threads = static_cast<int>(std::min(allowed_threads, max_threads));
+  auto const running_threads = int64_t { std::min(allowed_threads, max_threads) };
 //  std::cout << "Runing threads: " << running_threads << "\n";
 
   auto results = std::vector<T>(running_threads);
   auto threads = std::vector<std::thread>(running_threads - 1);
   
   auto const block_size = (elements_total + 1) / running_threads;
-  auto block_start = Iter {start};
+  auto block_start = start;
   
   for (int i = 0; i < (running_threads - 1); ++i) {
-    auto block_end = Iter { block_start };
+    auto block_end = block_start;
     std::advance(block_end, block_size);
     threads[i] = std::thread(
-      accumulate_block<Iter, T>, block_start, block_end, std::ref(results[i]));
+      accumulate_block<Iter, T>, block_start, block_end, std::ref(results[i])
+    );
     block_start = block_end;
   }
   accumulate_block<Iter, T>(block_start, end, results[running_threads - 1]);

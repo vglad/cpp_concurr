@@ -65,7 +65,7 @@ void y_operation() {
 
 //will throw runtime error in VS2019 in x64-Debug or x64-Clang-Debug mode 
 //warnings C26111 and C26115
-std::unique_lock<std::mutex> get_lock() {
+static std::unique_lock<std::mutex> get_lock() {
   auto m = std::mutex {};
   auto lk = std::unique_lock<std::mutex>(m);
   x_operation();
