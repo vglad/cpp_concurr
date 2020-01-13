@@ -41,6 +41,10 @@ set(SOURCE_FILES
 	../../include/lib/mod03/m03_35.hpp
 
 	../../include/lib/mod04/m04_38.hpp
+	../../include/lib/mod04/m04_39.hpp
+
+	../../include/lib/mod05/m05_41.hpp
+	../../include/lib/mod05/m05_42.hpp
 		
 
 	../../include/lib/lib.hpp lib.cpp
@@ -53,5 +57,6 @@ target_include_directories(libConcurr PRIVATE
 	../../include/lib/mod02
 	../../include/lib/mod03
 	../../include/lib/mod04
+	../../include/lib/mod05
 	../../include/lib
 )
