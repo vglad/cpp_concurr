@@ -26,7 +26,7 @@ public:
     queue = other.queue;
   }
 
-  void push(T& value) {
+  void push(T const & value) {
     auto lg = std::lock_guard<std::mutex>(m);
     queue.push(std::make_shared<T>(value));
     cv.notify_one();

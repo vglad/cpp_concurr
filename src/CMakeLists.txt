@@ -27,5 +27,6 @@ target_include_directories(main PRIVATE
         ../include/lib/mod04
         ../include/lib/mod05
         ../include/lib/mod06
+        ../include/lib/mod07
         ../include/lib
 )

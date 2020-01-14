@@ -4,9 +4,7 @@
 #ifndef CPP_CONCURR_INCLUDE_LIB_MOD06_M06_62_HPP
 #define CPP_CONCURR_INCLUDE_LIB_MOD06_M06_62_HPP
 
-#include <iostream>
 #include <atomic>
-#include <thread>
 #include <memory>
 
 namespace concurr::m06_62 {
