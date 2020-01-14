@@ -58,8 +58,10 @@ set(SOURCE_FILES
 	../../include/lib/mod05/m05_55.hpp
 	../../include/lib/mod05/m05_56.hpp
 
-
-					
+	../../include/lib/mod06/m06_59.hpp
+	../../include/lib/mod06/m06_60.hpp
+	../../include/lib/mod06/m06_61.hpp
+	../../include/lib/mod06/m06_62.hpp
 
 	../../include/lib/lib.hpp lib.cpp
 )
@@ -72,5 +74,6 @@ target_include_directories(libConcurr PRIVATE
 	../../include/lib/mod03
 	../../include/lib/mod04
 	../../include/lib/mod05
+	../../include/lib/mod06
 	../../include/lib
 )

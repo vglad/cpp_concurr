@@ -33,7 +33,7 @@ auto mutex = spinlock_mutex {};
 
 void func() {
 	auto lg = std::lock_guard<spinlock_mutex>(mutex);
-	std::cout << std::this_thread::get_id() << "hello\n";
+	std::cout << std::this_thread::get_id() << " - hello\n";
 	std::this_thread::sleep_for(3s);
 }
 
