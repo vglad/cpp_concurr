@@ -45,7 +45,21 @@ set(SOURCE_FILES
 
 	../../include/lib/mod05/m05_41.hpp
 	../../include/lib/mod05/m05_42.hpp
-		
+	../../include/lib/mod05/m05_43.hpp
+	../../include/lib/mod05/m05_44.hpp
+	../../include/lib/mod05/m05_46.hpp
+	../../include/lib/mod05/m05_47.hpp
+	../../include/lib/mod05/m05_48.hpp
+	../../include/lib/mod05/m05_50.hpp
+	../../include/lib/mod05/m05_51.hpp
+	../../include/lib/mod05/m05_52.hpp
+	../../include/lib/mod05/m05_53.hpp
+	../../include/lib/mod05/m05_54.hpp
+	../../include/lib/mod05/m05_55.hpp
+	../../include/lib/mod05/m05_56.hpp
+
+
+					
 
 	../../include/lib/lib.hpp lib.cpp
 )
